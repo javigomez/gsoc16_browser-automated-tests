@@ -1,9 +1,9 @@
-Feature: administrator
+Feature: administrator login
   In order to manage my web application
   As an administrator
-  I need to have a control panel
+  I need to be able to login
 
-  Scenario: Feature an Article
-    Given Joomla CMS is installed
-    When Login into Joomla administrator with username "admin" and password "admin"
-    Then I see administrator dashboard
+  Scenario: Successful login
+    Given I am a registered administrator user named "admin"
+    When login into Joomla administrator with username "admin" and password "admin"
+    Then I should see administrator dashboard
