@@ -36,4 +36,5 @@ gherkin:
         default:
             - AcceptanceTester
             - Step\Acceptance\Administrator\User
+            - Step\Acceptance\Administrator\Content
             - Page\Acceptance\Administrator\Login
