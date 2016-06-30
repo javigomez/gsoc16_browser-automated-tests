@@ -5,7 +5,7 @@ Feature: content
 
   Background:
     When I Login into Joomla administrator with username "admin" and password "admin"
-    And I see the administrator dashboard
+    Then I should see the administrator dashboard
 
   Scenario: Create an Article
     Given There is a add content link

@@ -5,7 +5,7 @@ Feature: users
 
   Background:
     When I Login into Joomla administrator with username "admin" and password "admin"
-    And I see the administrator dashboard
+    Then I should see the administrator dashboard
 
   Scenario: Verify available tabs in com_users
     Given There is an user link
@@ -28,11 +28,6 @@ Feature: users
     Given I have a user with user name "register"
     When I block the user
     Then I should see the "User blocked." message
-
-#  Scenario: Unblock user
-#    Given I have a blocked user with user name "register"
-#    When I unblock the user
-#    Then I should see the "User enabled." message
 
   Scenario: Delete user
     Given I have a user with user name "Editor"

@@ -38,3 +38,4 @@ gherkin:
             - Page\Acceptance\Administrator\Login
             - Step\Acceptance\Administrator\User
             - Step\Acceptance\Administrator\Content
+            - Step\Acceptance\Administrator\Login

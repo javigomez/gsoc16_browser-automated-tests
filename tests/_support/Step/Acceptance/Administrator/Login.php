@@ -20,7 +20,6 @@ class Login extends \AcceptanceTester
 
 	/**
 	 * @Then I should see the administrator dashboard
-	 * @When I see the administrator dashboard
 	 */
 	public function iShouldSeeTheAdministratorDashboard()
 	{

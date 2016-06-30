@@ -8,17 +8,17 @@ class LoginPage extends AdminPage
     /**
      * @var   array  Locator for username login form textfield
      */
-    public static $usernameField = ['css' => 'input[data-tests="username"]'];
+    public static $usernameField = ['id' => 'mod-login-username'];
 
     /**
      * @var   array  Locator for password login form textfield
      */
-    public static $passwordField = ['css' => 'input[data-tests="password"]'];
+    public static $passwordField = ['id' => 'mod-login-password'];
 
     /**
      * @var   array  Locator for Log in button
      */
-    public static $loginButton = ['css' => 'button[data-tests="log in"]'];
+    public static $loginButton = 'Log in';
     
     public static $url = "/administrator/index.php";
 }
